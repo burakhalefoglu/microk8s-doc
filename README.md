@@ -1,14 +1,14 @@
 # microk8s-doc
 
-## Terminal codes
-
-### To start microk8s
+## To start microk8s
 
 ```shell
-bash setup.sh
+bash start.sh
 ```
 
-### port forward to the dashboard
+### Clustering the microk8s(<https://thenewstack.io/add-nodes-to-your-microk8s-kubernetes-cluster/> or <https://microk8s.io/docs/high-availability>)
+
+### port forward to the dashboard(<https://microk8s.io/docs/addon-dashboard>)
 
 port forward  example -> kubectl port-forward [resource-type/][name-of-target-resource] [local-port]:[target-resource-port] -n [namespace]
 
@@ -23,4 +23,16 @@ echo "to access kubernetes dashboard -> https://127.0.0.1:10443/"
 echo "to get token from kubernetes dashboard ->"
 
 kctl create token default
+```
+
+### To start storage for kubernetes
+
+```shell
+bash storage.sh
+```
+
+### To start the monitoring tools
+
+```shell
+bash monitoring.sh
 ```

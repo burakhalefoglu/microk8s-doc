@@ -8,12 +8,12 @@ microk8s enable dns ingress dashboard cert-manager metallb prometheus rbac hostp
 
 microk8s enable community
 
-microk8s kubectl get nodes
-
 alias kctl='microk8s kubectl'
 
 echo 'new alias is -> kctl <-> microk8s kubectl'
 
 kctl get po -A
+
+kctl kubectl get nodes
 
 
