@@ -1,0 +1,1 @@
+echo "https://medium.com/@malachibazar/hosting-a-web-server-in-microk8s-399573e705cc"
