@@ -6,6 +6,8 @@
 bash start.sh
 ```
 
+### static ip (<https://www.rosehosting.com/blog/how-to-configure-static-ip-address-on-ubuntu-22-04/>)
+
 ### Clustering the microk8s(<https://thenewstack.io/add-nodes-to-your-microk8s-kubernetes-cluster/> or <https://microk8s.io/docs/high-availability>)
 
 ### port forward to the dashboard(<https://microk8s.io/docs/addon-dashboard>)
