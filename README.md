@@ -21,10 +21,11 @@ kctl port-forward service/kubernetes-dashboard 10443:443 -n kube-system
 ### access to the dashboard
 
 ```shell
-echo "to access kubernetes dashboard -> https://127.0.0.1:10443/"
+echo "to access kubernetes dashboard -> https://<Your IP Address>:10443/"
 echo "to get token from kubernetes dashboard ->"
 
-kctl create token default
+lxc exec microk8s -- microk8s dashboard-proxy
+
 ```
 
 ### To start storage for kubernetes
