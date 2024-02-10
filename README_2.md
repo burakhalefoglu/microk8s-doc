@@ -1,9 +1,5 @@
-### LXD-doc (<https://microk8s.io/docs/install-lxd>)
-
-## How to learn login IP ?
-lxc list microk8s
 ### Example login:
-https://10.30.73.142:10443/#/login
+https://<YOUR-İP>:10443/#/login
 
 ### CLUSTERING (<https://thenewstack.io/add-nodes-to-your-microk8s-kubernetes-cluster/>)
 192.168.1.107 kubecontroller </br>

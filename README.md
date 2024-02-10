@@ -1,5 +1,11 @@
 # microk8s-doc<https://microk8s.io/docs>
 
+## access to server
+
+```shell
+ssh -L 59000:localhost:5901 -C -N -l kubecontroller 192.168.1.107 -p 2222
+```
+
 ## To start microk8s
 
 ```shell
