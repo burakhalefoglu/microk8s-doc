@@ -1,5 +1,5 @@
 # This doc how to set static ip in ubuntu server
-
+# references <https://linuxize.com/post/how-to-configure-static-ip-address-on-ubuntu-20-04/>
 ### This is location of netplan in Ubuntu Server: /etc/netplan/00-installer-config.yaml
 
 cd /etc/netplan
@@ -17,7 +17,7 @@ network:
       dhcp4: no
       addresses:
         - ["This is  your want to set local ip"] <----(ex: 192.168.1.100)
-        gateway4: "Your gateway ip " <---- (ex: 192.168.1.1)
+      gateway4: "Your gateway ip " <---- (ex: 192.168.1.1)
       nameservers:
         addresses: ["This is you want to set DNS"] <----(ex: [8.8.8.8, 1.1.1.1] )
 
