@@ -16,7 +16,7 @@ network:
     eno1: <----(This is your ethernet chip given name)
       dhcp4: no
       addresses:
-        - ["This is  your want to set local ip"] <----(ex: 192.168.1.100)
+        - ["This is  your want to set local ip"] <----(ex: 192.168.1.100/24)
       gateway4: "Your gateway ip " <---- (ex: 192.168.1.1)
       nameservers:
         addresses: ["This is you want to set DNS"] <----(ex: [8.8.8.8, 1.1.1.1] )
