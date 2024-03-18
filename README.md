@@ -46,4 +46,4 @@ bash storage.sh
 bash monitoring.sh
 ```
 
-### For Security(<https://www.fosslinux.com/100675/ubuntu-security-best-practices-for-securing-your-system.htm>)<https://www.linuxjournal.com/content/ubuntu-server-security-best-practices>
+### For Security(<https://www.fosslinux.com/100675/ubuntu-security-best-practices-for-securing-your-system.htm> <https://www.linuxjournal.com/content/ubuntu-server-security-best-practices>)

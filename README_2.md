@@ -24,13 +24,11 @@ sudo firewall-cmd --reload
 sudo firewall-cmd --add-port=19001/tcp --permanent
 sudo firewall-cmd --reload
 ```
-
+  
 ```bash
 microk8s add-node
 ```
 
 ```bash
 microk8s kubectl get nodes
-```
-
-microk8s join 10.30.73.142:25000/1e592e3523ee36787573444abe52e32d/a7ffe6c85125 --worker
+```     
